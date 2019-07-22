@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
 
 public class Generador_Mapas : MonoBehaviour
 {
@@ -12,19 +11,12 @@ public class Generador_Mapas : MonoBehaviour
     public GameObject prefab;
     public LayerMask mascaras;
 
-    Mapa[] padres = new Mapa[2];
-    Mapa final;
-
     void Start()
     {
         for(int i = 0; i < generado.Length; i++)
         {
-            generado[i] = new Mapa(59, grid, prefab, mascaras, Inicios[i], Destinos[i], 0.5f);
+            generado[i] = new Mapa(60, grid, prefab, mascaras);
             generado[i].makeRandomMap(i);
-            generado[i].HacerElVecindario();
-            generado[i].BFSAlgoritm();
-            generado[i].CalculateFitnnes();
-            Debug.Log("Fitness de Generado[" + i + "] es de: " + generado[i].fitness);
         }
     }
 
@@ -76,7 +68,7 @@ public class Generador_Mapas : MonoBehaviour
 public class Mapa
 {
     Grid grid;
-    GameObject prefab, inicio, fin;
+    GameObject prefab;
     LayerMask maska;
     public Ficha[] piezas;
     int sizeMap;
@@ -84,21 +76,16 @@ public class Mapa
     Vector3Int _PositionGrid;
     Queue visitables = new Queue();
 
-    public float fitness;
-
     float wishDificult, difucltObt;
-    int Steps = 0, canReach = 0;
+    int Steps, canReach;
 
-    public Mapa(int _sizeMap, Grid _grid, GameObject _prefab, LayerMask _mask, GameObject _inicio, GameObject _fin, float _wishDif) 
+    public Mapa(int _sizeMap, Grid _grid, GameObject _prefab, LayerMask _mask) 
     {
         sizeMap = _sizeMap;
         piezas = new Ficha[sizeMap];
         grid = _grid;
         prefab = _prefab;
         maska = _mask;
-        inicio = _inicio;
-        fin = _fin;
-        wishDificult = _wishDif;
     }
 
     public void makeRandomMap(int _y)
@@ -111,6 +98,7 @@ public class Mapa
             _PositionGrid = new Vector3Int(Random.Range(-4, 2), Random.Range(0, 11), 0);
             if (!Physics.Raycast(grid.CellToWorld(_PositionGrid) + (Vector3.up * (_y + 1)), Vector3.down, out hit, 1.0f, maska))
             {
+                Debug.Log("Did not Hit");
                 go = GameObject.Instantiate(prefab, grid.CellToWorld(_PositionGrid) + (Vector3.up * _y), Quaternion.identity);
                 go.transform.SetParent(GameObject.Find("Mapa_"+ (_y + 1)).transform);
                 piezas[checkedPiece] = go.GetComponent<Ficha>();
@@ -121,65 +109,8 @@ public class Mapa
             if(breakPoint >= 2000)
                 break;
             breakPoint++;
+            Debug.Log("breakpoint");
         }
-    }
-
-    public void HacerElVecindario()
-    {
-        inicio.GetComponent<Ficha>().KnowTheNeighbour();
-        for(int i = 0; i < piezas.Length; i++)
-        {
-            piezas[i].KnowTheNeighbour();
-        }
-        fin.GetComponent<Ficha>().KnowTheNeighbour();
-    }
-
-    public void BFSAlgoritm()
-    {
-        int breakPoint = 0;
-        visitables.Enqueue(inicio.GetComponent<Ficha>());
-        do
-        {
-            Ficha temp = visitables.Count != 0 ? (Ficha)visitables.Dequeue() : null;
-            if(temp == null)
-                break;
-            for(int j = 0; j < temp.vecinos.Count; j++)
-            {
-                if(temp.vecinos[j].vecinos.Contains(temp))
-                {
-                    temp.vecinos[j].padre = temp;
-                    visitables.Enqueue(temp.vecinos[j]);
-                }
-            }
-            if(breakPoint > 1000)
-                break;
-            breakPoint++;
-        } while(visitables.Count != 0);
-
-
-        Ficha rec = fin.GetComponent<Ficha>();
-        while(rec.padre != null)
-        {
-            Steps++;
-            rec = rec.padre != null ?  rec.padre : null;
-        }
-        if(rec.gameObject == inicio)
-        {
-            canReach = 1;
-        }
-        Debug.Log(canReach > 0 ? "Can Reach" : "Can't Reach");
-        Debug.Log("Steps: " + Steps);
-    }
-
-    public void CalculateFitnnes()
-    {
-        difucltObt = wishDificult - ( 1.0f - Remap(Steps, 11, 60, 0.5f, 1.0f));
-        fitness = difucltObt + canReach;
-    }
-
-    float Remap(float _Value, float _a1, float _b1, float _a2, float _b2)
-    {
-        return (_a2 + (_Value - _a1) * (_b2 - _a2) / (_b1 - _a1));
     }   
 
     ~Mapa() {}

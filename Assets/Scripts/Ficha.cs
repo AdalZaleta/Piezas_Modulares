@@ -9,7 +9,13 @@ public class Ficha : MonoBehaviour
     public List<Ficha> vecinos = new List<Ficha>();
     public tipoDeFicha myType;
     public LayerMask maska;
-    public Ficha padre;
+
+    Queue Vecinos = new Queue();
+
+    void Start()
+    {
+        Invoke("KnowTheNeighbour", 2.0f);
+    }
 
     [ContextMenu("Select The Piece")]
     public void SelectPiece()
