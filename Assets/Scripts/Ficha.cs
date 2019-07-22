@@ -10,6 +10,8 @@ public class Ficha : MonoBehaviour
     public tipoDeFicha myType;
     public LayerMask maska;
 
+    Queue Vecinos = new Queue();
+
     void Start()
     {
         Invoke("KnowTheNeighbour", 2.0f);

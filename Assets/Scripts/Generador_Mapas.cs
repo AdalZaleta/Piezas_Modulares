@@ -5,15 +5,14 @@ using UnityEngine;
 public class Generador_Mapas : MonoBehaviour
 {
     Mapa[] generado = new Mapa[8];
+    public GameObject[] Inicios;
+    public GameObject[] Destinos;
     public Grid grid;
     public GameObject prefab;
-    public Vector3Int PositionGrid;
     public LayerMask mascaras;
 
     void Start()
     {
-        PositionGrid = new Vector3Int(Random.Range(-4, 2), Random.Range(0, 11), 0);
-        prefab.transform.position = grid.CellToWorld(PositionGrid);
         for(int i = 0; i < generado.Length; i++)
         {
             generado[i] = new Mapa(60, grid, prefab, mascaras);
