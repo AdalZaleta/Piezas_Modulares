@@ -28,49 +28,49 @@ public class Generador_Mapas : MonoBehaviour
         }
     }
 
-    IEnumerator Procrear()
-    {
-        do
-        {
-            CalculateFitnnes();
-            SeleccionPadres();
-            CruceYMutacion();
-            yield return new WaitForEndOfFrame();
-        } while (difucltObt <= wishDificult);
-    }
+    // IEnumerator Procrear()
+    // {
+    //     do
+    //     {
+    //         CalculateFitnnes();
+    //         SeleccionPadres();
+    //         CruceYMutacion();
+    //         yield return new WaitForEndOfFrame();
+    //     } while (difucltObt <= wishDificult);
+    // }
 
-    public void SeleccionPadres()
-    {
-        var ordenado = piezas.OrderByDescending(v => this.fitness).ToArray();
-		padres[0] = ordenado[0];
-        padres[1] = ordenado[1];
-    }
+    // public void SeleccionPadres()
+    // {
+    //     var ordenado = piezas.OrderByDescending(v => this.fitness).ToArray();
+	// 	padres[0] = ordenado[0];
+    //     padres[1] = ordenado[1];
+    // }
 
-    public void CruceYMutacion()
-    {
-        Mapa temp, P1, P2;
-        P1 = padres[0];
-        P2 = padres[1];
-        for(int i = 0; i < colores.Length; i++)
-        {
-            temp = colores[i].objeto.GetComponent<RawImage>().color;
-            temp.r = Random.Range(0.0f, 1.0f) >= 0.5f ? P1.r : P2.r;
-            temp.g = Random.Range(0.0f, 1.0f) >= 0.5f ? P1.g : P2.g;
-            temp.b = Random.Range(0.0f, 1.0f) >= 0.5f ? P1.b : P2.b;
+    // public void CruceYMutacion()
+    // {
+    //     Mapa temp, P1, P2;
+    //     P1 = padres[0];
+    //     P2 = padres[1];
+    //     for(int i = 0; i < colores.Length; i++)
+    //     {
+    //         temp = colores[i].objeto.GetComponent<RawImage>().color;
+    //         temp.r = Random.Range(0.0f, 1.0f) >= 0.5f ? P1.r : P2.r;
+    //         temp.g = Random.Range(0.0f, 1.0f) >= 0.5f ? P1.g : P2.g;
+    //         temp.b = Random.Range(0.0f, 1.0f) >= 0.5f ? P1.b : P2.b;
 
 
-            if(Random.Range(0.0f, 1.0f) <= Mutacion.value)
-            {
-                temp.r = Random.Range(0.0f, 1.0f) >= 0.5f ? temp.r + 0.2f * CrossOver.value : temp.r - 0.2f * CrossOver.value;
-                if(temp.r > 1.0f) temp.r = 1.0f;
-                temp.g = Random.Range(0.0f, 1.0f) >= 0.5f ? temp.g + 0.2f * CrossOver.value : temp.g - 0.2f * CrossOver.value;
-                if(temp.g > 1.0f) temp.g = 1.0f;
-                temp.b = Random.Range(0.0f, 1.0f) >= 0.5f ? temp.b + 0.2f * CrossOver.value : temp.b - 0.2f * CrossOver.value;
-                if(temp.b > 1.0f) temp.b = 1.0f;
-            } 
-            colores[i].objeto.GetComponent<RawImage>().color = temp;
-        }
-
+    //         if(Random.Range(0.0f, 1.0f) <= Mutacion.value)
+    //         {
+    //             temp.r = Random.Range(0.0f, 1.0f) >= 0.5f ? temp.r + 0.2f * CrossOver.value : temp.r - 0.2f * CrossOver.value;
+    //             if(temp.r > 1.0f) temp.r = 1.0f;
+    //             temp.g = Random.Range(0.0f, 1.0f) >= 0.5f ? temp.g + 0.2f * CrossOver.value : temp.g - 0.2f * CrossOver.value;
+    //             if(temp.g > 1.0f) temp.g = 1.0f;
+    //             temp.b = Random.Range(0.0f, 1.0f) >= 0.5f ? temp.b + 0.2f * CrossOver.value : temp.b - 0.2f * CrossOver.value;
+    //             if(temp.b > 1.0f) temp.b = 1.0f;
+    //         } 
+    //         colores[i].objeto.GetComponent<RawImage>().color = temp;
+    //     }
+    // }
 }
 
 public class Mapa
