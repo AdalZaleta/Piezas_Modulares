@@ -20,16 +20,16 @@ public class Generador_Mapas : MonoBehaviour
         }
     }
 
-    // IEnumerator Procrear()
-    // {
-    //     do
-    //     {
-    //         CalculateFitnnes();
-    //         SeleccionPadres();
-    //         CruceYMutacion();
-    //         yield return new WaitForEndOfFrame();
-    //     } while (difucltObt <= wishDificult);
-    // }
+    IEnumerator Procrear()
+    {
+        // do
+        // {
+        //     CalculateFitnnes();
+        //     SeleccionPadres();
+        //     CruceYMutacion();
+             yield return new WaitForEndOfFrame();
+        // } while (difucltObt <= wishDificult);
+    }
 
     // public void SeleccionPadres()
     // {
