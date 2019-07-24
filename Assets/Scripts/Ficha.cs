@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+
+//Use this
 public class Ficha : MonoBehaviour
 {
     public GameObject[] piezas;
