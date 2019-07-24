@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System.Linq;
 
 public class Generador_Mapas : MonoBehaviour
 {
@@ -10,6 +11,7 @@ public class Generador_Mapas : MonoBehaviour
     public Grid grid;
     public GameObject prefab;
     public LayerMask mascaras;
+    public Mapa[] padres = new Mapa[2];
 
     void Start()
     {
@@ -31,12 +33,12 @@ public class Generador_Mapas : MonoBehaviour
         // } while (difucltObt <= wishDificult);
     }
 
-    // public void SeleccionPadres()
-    // {
-    //     var ordenado = piezas.OrderByDescending(v => this.fitness).ToArray();
-	// 	padres[0] = ordenado[0];
-    //     padres[1] = ordenado[1];
-    // }
+    public void SeleccionPadres()
+    {
+        var ordenado = Mapa.OrderByDescending(v => v).ToArray();
+		padres[0] = ordenado[0];
+        padres[1] = ordenado[1];
+    }
 
     // public void CruceYMutacion()
     // {
