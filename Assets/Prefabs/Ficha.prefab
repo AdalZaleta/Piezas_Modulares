@@ -12,7 +12,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -42,7 +42,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -72,7 +72,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -102,7 +102,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -160,7 +160,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 4
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -204,7 +204,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 3
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -234,7 +234,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -264,7 +264,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -294,7 +294,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -324,7 +324,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -354,7 +354,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -384,7 +384,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 4
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -414,7 +414,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -458,7 +458,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 4
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -488,7 +488,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 5
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -560,7 +560,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -646,7 +646,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -676,7 +676,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -706,7 +706,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -736,7 +736,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 3
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -766,7 +766,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 4
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -796,7 +796,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 5
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -826,7 +826,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -856,7 +856,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -886,7 +886,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -916,7 +916,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 3
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -946,7 +946,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -990,7 +990,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 3
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1020,7 +1020,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 3
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1050,7 +1050,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1080,7 +1080,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 6
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1110,7 +1110,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 3
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1204,6 +1204,7 @@ MonoBehaviour:
   maska:
     serializedVersion: 2
     m_Bits: 512
+  padre: {fileID: 0}
 --- !u!1 &6478447694197860291
 GameObject:
   m_ObjectHideFlags: 0
@@ -1216,7 +1217,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1260,7 +1261,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 3
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1290,7 +1291,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1320,7 +1321,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 1
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1350,7 +1351,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 4
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1380,7 +1381,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 2
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1410,7 +1411,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 3
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1440,7 +1441,7 @@ GameObject:
   m_Layer: 9
   m_Name: Vecino 6
   m_TagString: Untagged
-  m_Icon: {fileID: 7866945982896999795, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -1696,6 +1697,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7737553223485943586}
     m_Modifications:
+    - target: {fileID: 100000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
+      propertyPath: m_Name
+      value: FichaCurvaCerradaTXT
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -1739,18 +1752,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
-      propertyPath: m_Name
-      value: FichaCurvaCerradaTXT
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e37ce45fbc192d14d840b039eb66a623, type: 3}
@@ -1850,6 +1851,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7737553223485943586}
     m_Modifications:
+    - target: {fileID: 100000, guid: 67d5b3cea2d5c8341b405dd0d98e8def, type: 3}
+      propertyPath: m_Name
+      value: FichaCentroTXT
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 67d5b3cea2d5c8341b405dd0d98e8def, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 67d5b3cea2d5c8341b405dd0d98e8def, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 67d5b3cea2d5c8341b405dd0d98e8def, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -1894,18 +1907,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 67d5b3cea2d5c8341b405dd0d98e8def, type: 3}
-      propertyPath: m_Name
-      value: FichaCentroTXT
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 67d5b3cea2d5c8341b405dd0d98e8def, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 67d5b3cea2d5c8341b405dd0d98e8def, type: 3}
-      propertyPath: m_Layer
-      value: 9
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 67d5b3cea2d5c8341b405dd0d98e8def, type: 3}
 --- !u!4 &2793477095042479078 stripped
@@ -1927,6 +1928,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7737553223485943586}
     m_Modifications:
+    - target: {fileID: 100000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
+      propertyPath: m_Name
+      value: FichaBrazoIzquierdoTXT
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -1970,18 +1983,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
-      propertyPath: m_Name
-      value: FichaBrazoIzquierdoTXT
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f00ce400f2b381e4cb773eb55208b189, type: 3}
@@ -2081,6 +2082,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7737553223485943586}
     m_Modifications:
+    - target: {fileID: 100000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
+      propertyPath: m_Name
+      value: FichaLlenaTXT
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -2124,18 +2137,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
-      propertyPath: m_Name
-      value: FichaLlenaTXT
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f99e5e5d9aefe6d4886d7b068d95bb88, type: 3}
@@ -2389,6 +2390,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7737553223485943586}
     m_Modifications:
+    - target: {fileID: 100000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}
+      propertyPath: m_Name
+      value: FichaTridenteTXT
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0
@@ -2432,18 +2445,6 @@ PrefabInstance:
     - target: {fileID: 400000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}
-      propertyPath: m_Name
-      value: FichaTridenteTXT
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 100000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}
-      propertyPath: m_Layer
-      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 61d3fe001ad288447807ad61f0a1a0e5, type: 3}

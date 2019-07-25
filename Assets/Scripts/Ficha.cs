@@ -11,13 +11,7 @@ public class Ficha : MonoBehaviour
     public List<Ficha> vecinos = new List<Ficha>();
     public tipoDeFicha myType;
     public LayerMask maska;
-
-    Queue Vecinos = new Queue();
-
-    void Start()
-    {
-        Invoke("KnowTheNeighbour", 2.0f);
-    }
+    public Ficha padre;
 
     [ContextMenu("Select The Piece")]
     public void SelectPiece()
@@ -27,10 +21,12 @@ public class Ficha : MonoBehaviour
             g.SetActive(false);
         }
         piezas[(int)myType].SetActive(true);
+        vecinos.Clear();
     }
 
     public void KnowTheNeighbour()
     {
+        vecinos.Clear();
         RaycastHit hot;
         GameObject temp;
         for(int j = 0; j < transform.childCount; j++)
